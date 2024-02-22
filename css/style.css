@@ -567,7 +567,8 @@ a:hover {
 }
 .footer .box .text {
   line-height: 2;
-  color: var(--gray-color);
+  /* color: var(--gray-color); */
+  color: white;
 }
 .footer .box .links li {
   padding: 15px 0;
@@ -578,16 +579,18 @@ a:hover {
   padding: 0 0 15px 0;
 }
 .footer .box .links li:not(:last-child) {
-  border-bottom: 1px solid var(--gray-color);
+  /* border-bottom: 1px solid var(--gray-color); */
+  border-bottom: 1px solid white;
 }
 .footer .box .links li:hover {
   padding-left: 10px;
 }
-.footer .box .links li:hover a {
-  color: white;
+.footer .box .links li:hover {
+  /* color: white; */
 }
 .footer .box .links li a {
-  color: var(--gray-color);
+  /* color: var(--gray-color); */
+  color: white;
   transition: 0.5s;
 }
 @media (max-width: 991px) {
@@ -606,12 +609,14 @@ a:hover {
   content: "\F101";
   font-weight: 900;
   margin-right: 10px;
-  color: var(--gray-color);
+  /* color: var(--gray-color); */
+  color: white;
 }
 .footer .box .line {
   display: flex;
   align-items: center;
-  color: var(--gray-color);
+  /* color: var(--gray-color); */
+  color: white;
   margin-bottom: 30px;
 }
 @media (max-width: 991px) {
@@ -622,7 +627,8 @@ a:hover {
 .footer .box .line i {
   font-size: 25px;
   margin-right: 10px;
-  color: var(--gray-color);
+  /* color: var(--gray-color); */
+  color: white;
 }
 @media (max-width: 991px) {
   .footer .box .line i {
